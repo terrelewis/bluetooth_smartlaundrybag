@@ -10,9 +10,6 @@ Working of the smart laundry bag app:
 
 The purpose of this project is to simplify the process of placing a pickup order and lend an element of intelligence to the app.
 
-While the other intern was responsible for developing the hardware prototype using an Arduino board, I was responsible to develop the app and integrate it into the main fabfresh app.
-
-We successfully managed to connect the app with laundry bag and fetch the readings at regular intervals. 
 
 Lifecycle of the service:
 -Prior to using this feature, the user will have to initially pair the phone with the laundry bag explicitly. This has to be done only once. The user will then have to manually trigger the service once after which the service will get automatically triggered at regular intervals. This is achieved by the use of the AlarmManager class provided by Android. 
